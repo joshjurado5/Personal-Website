@@ -27,6 +27,13 @@
 
 @media (max-width: 415px) {
 
+    .top-nav .nav-list {
+        padding-top: 50%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
     .menu-toggler{
         top: 5rem;
         right: 3rem;
