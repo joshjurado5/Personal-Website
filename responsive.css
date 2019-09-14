@@ -1,0 +1,104 @@
+@media (max-width: 769px){
+    
+    
+    .my-skills{
+        margin-top: 8rem;
+    }
+
+    .skill h1{
+        font-size: 2.4rem;
+    }
+
+    .skill p{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .icon-container{
+        width: 10rem;
+        height: 10rem;
+        border: 3px solid white;
+        background-color: #005bea;
+        margin-bottom: 2rem;
+        display: flex;
+        transform: rotate(45deg)
+    }
+}
+
+@media (max-width: 376px) {
+
+    .menu-toggler{
+        top: 5rem;
+        right: 3rem;
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .landing-text h1{
+        font-size: 12rem;
+    }
+
+    .landing-text h6{
+        font-size: 3rem;
+    }
+
+    .about .container{
+        display: block;
+    }
+
+    .about {
+        padding-bottom: 0;
+    }
+
+    .about-heading h1{
+        font-size: 8rem;
+    }
+
+    .profile-img{
+        /* display: none; */
+        width: 50%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    .about-details{
+        display: block;
+        text-align: center;
+    }
+
+    .my-skills{
+        display: block;
+    }
+
+    .skill {
+        padding-bottom: 5rem;
+    }
+
+    .skill:last-child {
+        padding-bottom: 2rem;
+    }
+
+    .portfolio {
+        padding-top: 2rem;
+    }
+
+    .portfolio-item {
+        display: block;
+    }
+
+    .portfolio-img{
+        margin: auto;
+    }
+
+    .portfolio-description{
+        display: none;
+    }
+
+    .portfolio-description h6{
+        display: none;
+    }
+
+    .contact {
+        padding-top: 0;
+    }
+}
